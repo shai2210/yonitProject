@@ -1,0 +1,107 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+/*parent page*/
+#parent{
+	
+    border-radius: 70px;
+    width: 60px;
+    height: 60px;
+    /* margin-top: 8%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#child{
+	
+    border-radius: 70px;
+    width: 50px;
+    /* padding: 10px; */
+    margin-left: 6%;
+    margin-top: 6%;
+    height: 50px;
+}
+main{
+	position:absolute;
+	top:10%;
+	width: 70%;
+    height: 80%; 
+	margin-left: 15%;
+}
+#wraper p{
+
+    color: #008DB1;
+    display: inline-block;
+    margin-left: 37%;
+    margin-top: 6%;
+}
+#parentPage header a{
+	height: 40px;
+	width: 40px;
+}
+button{
+	border-radius: 2px;
+    width: 44px;
+    border: 1px solid #000000;
+    display: block;
+}
+button div{
+	
+	width: 35px;
+    height: 5px;
+    background-color: black;
+    border-radius: 28px;
+    margin: 6px 3px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+/*welcome page*/
+#welcome #wraper form{
+	margin-top: 19%;
+    margin-left: 20%;
+
+}
+#welcome #wraper label{
+	display: block;
+	margin-bottom: 10px;
+}
+#welcome #wraper label:nth-child(2){
+	display: block;
+	margin-bottom: 10px;
+    margin-left: 80px;
+}
+#welcome #wraper input[type=text]{
+	border:none;
+	border-bottom:1px;
+	width:50%;
+	direction: rtl;
+}
+#welcome #wraper p{
+	position:inherit;
+    margin-top: 50%;
+    
+    margin-left: 21%;
+}
+#welcome #wraper input[type=submit]{
+	
+    border: 1px solid #000000;
+    margin-left: 20%;
+    margin-top: 50%;
+    /* width: 10%; */
+    /* height: 10%; */
+    padding: 5% 15% 5% 15%;
+        border-radius: 6px;
+
+}
+
