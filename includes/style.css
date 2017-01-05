@@ -13,6 +13,16 @@ padding: 0px;
     margin-left: auto;
     margin-right: auto;
 }
+
+#parentPage #wraper{
+
+	border: 1px solid #ABD046;
+    
+    /* width: 10%; */
+    /* height: 10%; */
+    padding: 5% 15% 5% 15%;
+        border-radius: 6px;
+}
 #child{
 	
     border-radius: 70px;
@@ -29,7 +39,6 @@ main{
 	margin-left: 15%;
 }
 #wraper p{
-
     color: #008DB1;
     display: inline-block;
     margin-left: 37%;
@@ -39,20 +48,7 @@ main{
 	height: 40px;
 	width: 40px;
 }
-button{
-	border-radius: 2px;
-    width: 44px;
-    border: 1px solid #000000;
-    display: block;
-}
-button div{
-	
-	width: 35px;
-    height: 5px;
-    background-color: black;
-    border-radius: 28px;
-    margin: 6px 3px;
-}
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -66,8 +62,11 @@ th, td {
 tr:nth-child(even){background-color: #f2f2f2}
 /*welcome page*/
 #welcome #wraper form{
-	margin-top: 19%;
-    margin-left: 20%;
+	    border: 1px solid #ABD046;
+    /* width: 10%; */
+    /* height: 10%; */
+    padding: 4% 0% 0% 10%;
+    border-radius: 6px;
 
 }
 #welcome #wraper label{
@@ -80,26 +79,60 @@ tr:nth-child(even){background-color: #f2f2f2}
     margin-left: 80px;
 }
 #welcome #wraper input[type=text]{
-	border:none;
-	border-bottom:1px;
-	width:50%;
+	border: 1px solid #ABD046;	
+	
 	direction: rtl;
+	display: block;
 }
-#welcome #wraper p{
+#welcome #wraper form > p{
+	    position: inherit;
+    color: #006C52;
+    margin-top: 6%;
+    margin-left: 2%;
+    /* margin: 0; */
+} 
+
+#welcome #wraper > p{
 	position:inherit;
+	color: #006C52;
     margin-top: 50%;
     
     margin-left: 21%;
 }
 #welcome #wraper input[type=submit]{
 	
-    border: 1px solid #000000;
-    margin-left: 20%;
-    margin-top: 50%;
-    /* width: 10%; */
+        border: 1px solid #000000;
+    /* margin-left: 20%; */
+    /* margin-top: 50%; */
+    width: 25px;
+    height: 25px;
     /* height: 10%; */
-    padding: 5% 15% 5% 15%;
-        border-radius: 6px;
-
+    border-radius: 25px;
+    position: relative;
+    top: 55px;
+    right: 210px;
+}
+ 
+#welcome #wraper form a{
+	    position: inherit;
+    color: #006C52;
+    margin-left: 6%;
+ 
+} 
+#allRights{
+	position: inherit;
+    color: #006C52;
+    margin-left: 6%;
+    padding-left: 47%;
+    margin-top: 0%;
+ 
+} 
+#arrow{
+	width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:10px solid blue;
 }
 
