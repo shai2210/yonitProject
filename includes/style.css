@@ -19,12 +19,17 @@ padding: 0px;
     left: 54px;
     display: inline-block;
 }
+#parentPage p{
+	    position: relative;
+    top: 50px;
+    left: 48%;
+}
 #childMain{
 	
-    border-radius: 70px;
+   border-radius: 26px;
     width: 50px;
-    margin-left: 6%;
-    margin-top: 6%;
+    margin-left: 0%;
+    margin-top: 0%;
     height: 50px;
 }
 #childMenu{
@@ -47,6 +52,36 @@ nav{
     bottom: 9px;
     /* z-index: 0; */
 }
+.rating {
+      unicode-bidi: bidi-override;
+    display: inline-block;
+    position: relative;
+    /* direction: rtl; */
+    /* text-align: center; */
+    /* position: relative; */
+    top: -4%;
+    /* left: 22%; */
+}
+.rating > span {
+      /* display: inline-block; */
+    /* position: relative; */
+    top: 88px;
+    /* left: 151px; */
+    width: 1.1em;
+    font-size: 37px;
+    color: #006c52;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}
 body#parentPage nav ul {
         list-style-type: none;
     text-decoration: none;
@@ -65,41 +100,49 @@ body#parentPage nav>ul li a {
     margin-left: 7px;
 }
 header{
-	    border: 1px solid #ABD046;
+        border: 1px solid #ABD046;
     /* width: 10%; */
     /* height: 10%; */
     /* padding: 5% 15% 5% 15%; */
     border-radius: 6px;
-    position: relative;
-    top: 10%;
+    /* position: relative; */
+    /* top: 10%; */
     width: 70%;
-    height: 80%;
+    height: 359px;
     margin-left: 2%;
 }
-#wraper p{
-    color: #008DB1;
-    display: block;
-    margin-left: 37%;
-    margin-top: 6%;
-}
+
 #topManu{
-	position: inherit;
-    height: 40px;
-    width: 40px;
-    left: 80%;
+position: inherit;
+   position: relative;
+    height: 68px;
+    width: 17px;
+    left: 64%;
+    top: 24%;
+    /* display: inline-block; */
+    text-decoration: none;
 }
 #downMenu{
-	position: inherit;
-    height: 40px;
-    width: 40px;
-    left: 80%;
-	height: 40px;
-	width: 40px;
+        position: inherit;
+    position: relative;
+    height: 68px;
+    width: 17px;
+    left: 35%;
+    top: 53%;
+    /* display: inline-block; */
+    text-decoration: none;
 }
 /*welcome page*/
+#welcome #headLine{
+	position: inherit;
+    color: #006C52;
+    margin-top: 6%;
+    margin-left: 15%;
+	
+}
 #welcome #wraper form{
 	    border: 1px solid #ABD046;
-    /* width: 10%; */
+    width: 36%;
     /* height: 10%; */
     padding: 4% 0% 0% 10%;
     border-radius: 6px;
@@ -120,20 +163,20 @@ header{
 	direction: rtl;
 	display: block;
 }
-#welcome #wraper form > p{
+
+#allRights{
 	    position: inherit;
     color: #006C52;
-    margin-top: 6%;
-    margin-left: 2%;
-    /* margin: 0; */
+    margin-left: 52%;
+    /* padding-left: 47%; */
+    margin-top: 10%;
+ 
 } 
-
-#welcome #wraper > p{
-	position:inherit;
-	color: #006C52;
-    margin-top: 50%;
-    
-    margin-left: 21%;
+#welcome #regs{
+   color: #006C52;
+    margin-top: -5%;
+    margin-left: 32%;
+  
 }
 #welcome #wraper input[type=submit]{
 	
@@ -155,14 +198,7 @@ header{
     margin-left: 6%;
  
 } 
-#allRights{
-	position: inherit;
-    color: #006C52;
-    margin-left: 6%;
-    padding-left: 47%;
-    margin-top: 0%;
- 
-} 
+
 .arrowLeft {
      width: 0;
     height: 0;
@@ -181,7 +217,7 @@ header{
     .nextButton{
     	 border: 1px solid #006C52;
     	position: relative;
-    top: -12px;
+    top: -18px;
     left: 10px;
     
     border-radius: 20px;
