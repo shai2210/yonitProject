@@ -26,12 +26,13 @@ body#parentPage   p:first-child{
     left: 48%;
 }
 #childMain{
-	
-   border-radius: 26px;
+	border-radius: 26px;
     width: 50px;
+    border: 4px solid;
     margin-left: 0%;
     margin-top: 0%;
     height: 50px;
+    border-color: #006c52;
 }
 #childMenu{
 position: relative;
@@ -53,7 +54,7 @@ body#parentPage #wraper > a{
     position: relative;
     left: 7%;
     border: 1px solid #006c52;
-    border-radius: 29px;
+        border-radius: 50%;
     color: #006c52;
     border-width: 3px;
     font-size: 35px;
@@ -64,10 +65,10 @@ body#parentPage header a:last-of-type{
    padding: 13px 19px 13px 19px;
     background-color: white;
     position: relative;
-    left: 33%;
-    top: 70%;
+        left: 88%;
+    top: 57%;
     border: 1px solid #006c52;
-    border-radius: 29px;
+        border-radius: 50%;
     color: #006c52;
     border-width: 3px;
     font-size: 35px;
@@ -189,7 +190,7 @@ position: inherit;
     position: relative;
     height: 68px;
     width: 17px;
-    left: 41%;
+    left: 32%;
     top: 53%;
     /* display: inline-block; */
     text-decoration: none;
@@ -226,14 +227,22 @@ position: inherit;
 	display: block;
 }
 
-#allRights{
+body#welcome #allRights{
 	    position: inherit;
     color: #006C52;
     margin-left: 52%;
     /* padding-left: 47%; */
-    margin-top: 10%;
- 
+    margin-top: 10%; 
 } 
+body#welcome #wraper #nextLink{
+	padding: 10px;
+    border: 1px solid;
+    border-radius: 66%;
+    position: absolute;
+    top: 28%;
+    background-color: white;
+    left: 3%;
+}
 #welcome #regs{
    color: #006C52;
     margin-top: -5%;
@@ -254,7 +263,7 @@ position: inherit;
     right: 210px;
 }
  
-#welcome #wraper form a{
+body#welcome #wraper form a{
 	    position: inherit;
     color: #006C52;
     margin-left: 6%;
@@ -381,4 +390,24 @@ body#childPage form div:last-of-type{
     padding: 10px 10px 10px 10px;
     border: 1px solid #000;
     border-radius: 70%;
+}
+body#childPage header a:first-of-type{
+	background-color: #006C52;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding: 5px 10px;
+    border-radius: 15%;
+    position: relative;
+    top: 72%;
+    left: 68%;
+}
+body#childPage header a:last-of-type{
+	background-color: #006C52;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding: 5px 10px;
+    border-radius: 15%;
+    position: relative;
+    top: 72%;
+    left: 87%;
 }
