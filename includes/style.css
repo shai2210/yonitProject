@@ -2,7 +2,109 @@
 margin: 0px;
 padding: 0px;
 }
+/*child page*/
+body#childPage   p:first-child{
+	    position: relative;
+    top: 50px;
+    left: 48%;
+}
+body#childPage #allRights{
+	 position: absolute;
+     margin:0px;
+    color: #006C52;
+    left: 67%;
+    /* padding-left: 47%; */
+    /* margin-top: 10%; */
+    top: 57%;
+}
+body#childPage nav{
+	    position: relative;
+    right: 197px;
+    bottom: 9px;
+    /* z-index: 0; */
+}
+body#childPage nav ul {
+        list-style-type: none;
+    text-decoration: none;
+    /* float: right; */
+}
 
+body#childPage nav>ul li {
+    border: 1px solid #006c52;
+    float: right;
+    text-decoration: none;
+    background-color: white;
+    border-right: 0px;
+    /* text-align: -webkit-right; */
+}
+body#childPage nav>ul li:first-child {
+    border: 1px solid #006c52;
+    float: right;
+    text-decoration: none;
+    border-radius: 0px 6px 6px 0px;
+    background-color: white;
+    /* text-align: -webkit-right; */
+}
+body#childPage nav>ul li:last-of-type {
+       border: 1px solid #006c52;
+    float: right;
+    text-decoration: none;
+    border-radius: 6px 0px 0px 6px;
+    background-color: white;
+     border-right: 0px; 
+    /* text-align: -webkit-right; */
+}
+body#childPage nav>ul li a {
+        color: #000000;
+    padding-left: 6px;
+    padding-bottom: 0px;
+    padding-right: 6px;
+    padding-top: 1px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+body#childPage form input[type=text]{
+	border: 1px solid #ABD046;	
+	margin-top:10%;
+	direction: rtl;
+	display: block;
+}
+body#childPage form input[type=submit]{
+	background-color: #006C52;
+	color:#FFFFFF;
+	text-decoration:none;
+	border:none;
+	padding: 5px 10px;
+    border-radius: 15%;
+    position: relative;
+    top: 72%;
+    left: 68%;
+}
+body#childPage form{
+	position: absolute;
+    right: 20%;
+    top: 23%;
+}
+
+body#childPage form div:last-of-type{
+	position: absolute;
+    bottom: 118px;
+    right: 222px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #000;
+    border-radius: 70%;
+}
+
+body#childPage header a{
+	background-color: #006C52;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding: 5px 10px;
+    border-radius: 15%;
+    position: relative;
+    top: 72%;
+    left: 87%;
+}
 /*parent page*/
 
 #parent{
@@ -450,107 +552,4 @@ position: inherit;
 		height: 40px;
 		background-color: white;
 	}
-}
-/*child page*/
-body#childPage   p:first-child{
-	    position: relative;
-    top: 50px;
-    left: 48%;
-}
-body#childPage #allRights{
-	 position: absolute;
-     margin:0px;
-    color: #006C52;
-    left: 67%;
-    /* padding-left: 47%; */
-    /* margin-top: 10%; */
-    top: 57%;
-}
-body#childPage nav{
-	    position: relative;
-    right: 197px;
-    bottom: 9px;
-    /* z-index: 0; */
-}
-body#childPage nav ul {
-        list-style-type: none;
-    text-decoration: none;
-    /* float: right; */
-}
-
-body#childPage nav>ul li {
-    border: 1px solid #006c52;
-    float: right;
-    text-decoration: none;
-    background-color: white;
-    border-right: 0px;
-    /* text-align: -webkit-right; */
-}
-body#childPage nav>ul li:first-child {
-    border: 1px solid #006c52;
-    float: right;
-    text-decoration: none;
-    border-radius: 0px 6px 6px 0px;
-    background-color: white;
-    /* text-align: -webkit-right; */
-}
-body#childPage nav>ul li:last-of-type {
-       border: 1px solid #006c52;
-    float: right;
-    text-decoration: none;
-    border-radius: 6px 0px 0px 6px;
-    background-color: white;
-     border-right: 0px; 
-    /* text-align: -webkit-right; */
-}
-body#childPage nav>ul li a {
-        color: #000000;
-    padding-left: 6px;
-    padding-bottom: 0px;
-    padding-right: 6px;
-    padding-top: 1px;
-    text-decoration: none;
-    margin-left: 0px;
-}
-body#childPage form input[type=text]{
-	border: 1px solid #ABD046;	
-	margin-top:10%;
-	direction: rtl;
-	display: block;
-}
-body#childPage form input[type=submit]{
-	background-color: #006C52;
-	color:#FFFFFF;
-	text-decoration:none;
-	border:none;
-	padding: 5px 10px;
-    border-radius: 15%;
-    position: relative;
-    top: 72%;
-    left: 68%;
-}
-body#childPage form{
-	position: absolute;
-    right: 20%;
-    top: 23%;
-}
-
-body#childPage form div:last-of-type{
-	position: absolute;
-    bottom: 118px;
-    right: 222px;
-    padding: 10px 10px 10px 10px;
-    border: 1px solid #000;
-    border-radius: 70%;
-}
-
-body#childPage header a{
-	background-color: #006C52;
-	color:#FFFFFF;
-	text-decoration:none;
-	padding: 5px 10px;
-    border-radius: 15%;
-    position: relative;
-    top: 72%;
-    left: 87%;
 }
