@@ -376,69 +376,56 @@ position: inherit;
 	    background-color: white;
 	}
 }
-@media only screen and (min-width: 801px){
-	#welcome #headLine{
-		position: inherit;
-	    color: #006C52;
-	    margin-top: 6%;
-	    margin-left: 15%;
-		
+@media only screen and (min-width: 801px){	
+	body#welcome  p:first-of-type{
+		position: absolute;
+	    margin: 0px;
+	    width: 17%;
+	    top: 119px;
+	    left: 42%;
 	}
-	#welcome #wraper form{
-		    border: 1px solid #ABD046;
-	    width: 36%;
-	    /* height: 10%; */
-	    padding: 4% 0% 0% 10%;
+	body#welcome #wraper form{
+		border: 1px solid #ABD046;
+	    position: absolute;
+	    padding: 6% 9% 9% 8%;
 	    border-radius: 6px;
-	
+	    top: 147px;
+	    left: 241px;
 	}
-	#welcome #wraper label{
-		display: block;
-		margin-bottom: 10px;
+	body#welcome #wraper input[type=text]{
+	    border: 1px solid #ABD046;
+	    direction: rtl;
+	    display: block;
+	    margin: 13px 1px 1px 1px;
 	}
-	#welcome #wraper label:nth-child(2){
-		display: block;
-		margin-bottom: 10px;
-	    margin-left: 80px;
+	body#welcome a:first-of-type{
+		position: relative;
+	    top: 260px;
+	    text-decoration: none;
+	    left: 312px;
+	    color: #006c52;
 	}
-	#welcome #wraper input[type=text]{
-		border: 1px solid #ABD046;	
-		
-		direction: rtl;
-		display: block;
-	}
-	
 	body#welcome #allRights{
-		    position: inherit;
+	    position: absolute;
 	    color: #006C52;
-	    margin-left: 52%;
-	    /* padding-left: 47%; */
-	    margin-top: 10%; 
+	    top: 350px;
+	    left: 600px;
 	} 
 	body#welcome #wraper #nextLink{
-		padding: 10px;
+	    padding: 10px;
 	    border: 1px solid;
 	    border-radius: 66%;
 	    position: absolute;
-	    top: 28%;
+	    top: 311px;
 	    background-color: white;
-	    left: 3%;
+	    left: 33%;
 	}
 	#welcome #regs{
-	   color: #006C52;
-	    margin-top: -5%;
-	    margin-left: 32%;
-	  
+		color: #006C52;
+	    position: absolute;
+	    top: 261px;
+	    left: 407px;
 	}
-	
-	 
-	body#welcome #wraper form a{
-		    position: inherit;
-	    color: #006C52;
-	    margin-left: 6%;
-	 
-	} 
-	
 	.arrowLeft {
 	     width: 0;
 	    height: 0;
@@ -454,15 +441,14 @@ position: inherit;
 	    margin: 7px 0;
 	    display: inline-block;
 	    }
-	    .nextButton{
-	    	 border: 1px solid #006C52;
-	    	position: relative;
+    .nextButton{
+		border: 1px solid #006C52;
+	   	position: relative;
 	    top: -18px;
-	    left: 10px;
-	    
-	    border-radius: 20px;
-	    height: 40px;
-	    background-color: white;
+		left: 10px;
+		border-radius: 20px;
+		height: 40px;
+		background-color: white;
 	}
 }
 /*child page*/
