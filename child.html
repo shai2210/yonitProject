@@ -17,7 +17,7 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 		<link rel="stylesheet" type="text/css" href="includes/style.css">
-
+		<script src="includes/formValid.js"></script>
 	</head>
 
 	<body id="childPage">
@@ -38,15 +38,15 @@
 				</nav>
 			<header>	
 
-<form>
-					   <input type="text" name="name" placeholder="שם ילד">
-				   <input type="text" name="lastName" placeholder="שם משפחה">
+<form name="regsForm" onsubmit="return validateForm()" method="post">
+					   <input type="text" name="fName" placeholder="שם ילד">
+				   <input type="text" name="lName" placeholder="שם משפחה">
 				   <input type="text" name="class" placeholder="כיתה">
 				   <input type="text" name="school" placeholder="בית ספר">
 				   <input type="text" name="city" placeholder="עיר">
+				   <input type="submit" value="אישור">
 <div>+</div>
 </form>
-<a href="#">אישור</a>
 <a href="#">ביטול</a>
 				 <p id="allRights">כל הזכויות שמורות לסטמצקי&#169</p>
 
