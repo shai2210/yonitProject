@@ -160,12 +160,14 @@ body#parentPage #wraper > a{
         border-radius: 50%;
     color: #006c52;
     border-width: 3px;
+    text-decoration:none;
     font-size: 35px;
     font-weight: bold;
    }
    
 body#parentPage header> a{
    padding: 13px 19px 13px 19px;
+   text-decoration:none;
     background-color: white;
     position: relative;
         left: 88%;
