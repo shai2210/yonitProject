@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Kipodim</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="includes/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="includes/navAnimation.js"></script>
+      <script src="includes/formValid.js"></script>
+   </head>
+   <body id="register">
+      <div id="wrapper">
+         <header>
+            <section>
+               <a href='#' id="logo">
+                  <h1>רישום משתמשים</h1>
+               </a>
+            </section>
+         </header>
+         <form name="regsForm" method="post">
+            <p><label>
+               <input type="text" name="fName" value="" placeholder="שם משתמש">
+               </label>
+            </p>
+            <p><label>
+               <input type="password" name="pass" value="" placeholder="סיסמא">
+               </label>
+            </p>
+            <p><label>
+               <input type="password" name="passConfirm" value="" placeholder="אימות סיסמא">
+               </label>
+            </p>
+            <p><label>
+               <input type="email" name="email" value="" placeholder="דואר אלקטרוני">
+               </label>
+            </p>
+            <p>
+               <label>
+                  <select name="type" id="input">
+                     <option value="0" selected="">סוג משתמש:</option>
+                     <option value="4">הורה</option>
+                     <option value="1">מורה</option>
+                     <option value="2">ילד</option>
+                     <option value="3">בעל חנות</option>
+                  </select>
+               </label>
+            </p>
+            <p><label>
+               </label>
+            </p>
+            <p class="rights"><a href="http://www.steimatzky.co.il/Steimatzky/pages/default.aspx"> © כל הזכויות שמורות סטימצקי </a></p>
+            <p class="submit"><span class="left"><img alt="submit" src="images/submit.png"></span></p>
+         </form>
+         <footer>
+            <img src="images/logo2.gif" alt="stimatzki logo" />
+         </footer>
+         <div class="clear"> </div>
+      </div>
+   </body>
+</html>
