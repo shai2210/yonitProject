@@ -282,6 +282,8 @@ input[type=submit]{
         font-size: 32px;
     }
 }
+
+/*parent page*/
 @media only screen and (min-width: 769px) {
     #master main {
         border: 8px solid;
@@ -331,7 +333,7 @@ input[type=submit]{
     
     #master nav {
         position: relative;
-        width: 279px;
+        width: 284px;
         float: left;
         margin-left: -105px;
         margin-top: -14px;
@@ -604,4 +606,116 @@ input[type=submit]{
 #books main img {
       	padding-top:10px;
         padding-right: 20px;
+    }
+    
+/*teacher page*/
+
+#teacher main {
+        border: 8px solid;
+        border-radius: 25px;
+        border-color: #abd146;
+        background-color: #FFFFFF;
+        min-height: 470px;
+        padding-top: 60px;
+        padding-right: 38px;
+    }
+    
+ #teacher nav .topnav {
+        border: 4px solid;
+        border-color: #006c52;
+    }
+    #teacher ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-left: 110px;
+    }
+    #teacher ul.topnav li {
+        float: left;
+        border-right: 4px solid;
+        border-color: #006c52;
+        padding: 10px;
+        background-color: #FFFFFF;
+    }
+    /* position*/
+    
+    #teacher nav {
+      position: relative;
+    width: 430px;
+    float: right;
+    margin-right: 111px;
+    margin-top: -14px;
+
+    }
+    /**/
+    
+    #teacher nav a {
+        color: #006c52;
+    }
+    #teacher nav>ul li:last-child {
+        border-right: 0px;
+    }
+    #teacher .kid2{
+    	    float: left;
+    margin: -107px 0px 0px 55px;
+    border: solid 4px #006C52;
+    border-radius: 49px;
+    }
+    
+    /*manager page*/
+   
+   #manager main {
+        border: 8px solid;
+        border-radius: 25px;
+        border-color: #abd146;
+        background-color: #FFFFFF;
+        min-height: 470px;
+        padding-top: 60px;
+        padding-right: 38px;
+    }
+    
+ #manager nav .topnav {
+        border: 4px solid;
+        border-color: #006c52;
+    }
+    #manager ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-left: 110px;
+    }
+    #manager ul.topnav li {
+        float: left;
+        border-right: 4px solid;
+        border-color: #006c52;
+        padding: 10px;
+        background-color: #FFFFFF;
+    }
+    /* position*/
+    
+    #manager nav {
+      position: relative;
+    width: 278px;
+    float: right;
+    margin-right: 111px;
+    margin-top: -14px;
+
+    }
+    /**/
+    
+    #manager nav a {
+        color: #006c52;
+    }
+    #manager nav>ul li:last-child {
+        border-right: 0px;
+    }
+    #manager .kid2{
+    	    float: left;
+    margin: -107px 0px 0px 55px;
+    border: solid 4px #006C52;
+    border-radius: 49px;
     }

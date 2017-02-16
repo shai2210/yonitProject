@@ -13,7 +13,8 @@ $( document ).ready(function() {
             url: 'new.php',
             data: dataString,
             cache: true,
-            success: function(data){                
+            success: function(data){ 
+            	console.log(data);               
 			$(".parent").append(data);
 			$(".name").append("שי");
             }

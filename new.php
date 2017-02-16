@@ -28,12 +28,22 @@
 	}
 	
 	function fetchPerson($id){
-		$query = "SELECT url FROM tbl_users_227 WHERE id=$id";
+		// $query = "SELECT url FROM tbl_users_227 WHERE id=$id";
+		// $mysqli = connect();
+		// if ($result = $mysqli->query($query)) {
+			// $row = $result->fetch_assoc();
+			// $pic = $row["url"];
+			// echo ("<img src=$pic alt=parent/>");			
+			
+			$query = "SELECT tbl_users_227.url 
+				  FROM tbl_users_227 
+				  INNER JOIN tbl_parent_child_227
+				  WHERE parent_id=$id";
 		$mysqli = connect();
 		if ($result = $mysqli->query($query)) {
 			$row = $result->fetch_assoc();
 			$pic = $row["url"];
-			echo ("<img src=$pic alt=parent/>");			
+			echo ($pic);			
 		}
 	}
 	
