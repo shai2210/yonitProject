@@ -134,47 +134,52 @@ input[type=submit]{
 /** Welcome mobile **/
 
 @media only screen and (max-width: 769px) {
-    #logo {
-        background-image: url(../images/logo.gif);
-        background-repeat: no-repeat;
-        background-position: right 10px bottom;
-        padding-top: 40px;
-    }
+#welcom #logo {
+           background-image: url(../images/logo.gif);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom;
+    padding-top: 90px;
+    margin-right: 15px;
+        
+    } 
+     #welcom h1{
+	padding-bottom: 10px;
+    padding-left: 35px;
+    font-size: 30px;
+    color: #006c52;
+	    } 
     #wrapper {
-        width: 480px;
+        /*width: 480px;
         margin: 0 auto;
         padding-top: 25px;
-        direction: rtl;
+        direction: rtl;*/
     }
     body {
         font-family: "arial";
         background-color: #f3f3f3;
     }
-    h1 {
-        padding-bottom: 10px;
-        padding-right: 150px;
-        font-size: 48px;
-        color: #006c52;
-    }
+ 
     form {
-        border: 8px solid;
+        /*border: 8px solid;
         border-radius: 25px;
         border-color: #abd146;
         background-color: #FFFFFF;
         height: 470px;
-        padding-top: 60px;
+        padding-top: 60px;*/
     }
     form .message a {
         color: #006c52;
         font-weight: bold;
         display: inline;
     }
-    form p {
-        padding: 10px;
-        color: #006c52;
+    #welcom p {
+            float: right;
+    padding: 10px;
+    color: #006c52;
     }
     form .rights {
-        padding-top: 200px;
+    	float:right;
+        padding-top: 80px;
     }
     input[type=text] {
         height: 53px;
@@ -195,19 +200,10 @@ input[type=submit]{
         margin-top: 25px;
         padding-right: 15px;
     }
-    /*
-input[type=submit]{
-	height:100px;
-	width:100px;
-	margin-right:500px;
-	margin-top: -30px;
-    background: url(../images/submit.png);
-    border: 0px;
-}*/
     
     form .submit a {
-        margin-top: -40px;
-        margin-right: 300px;
+          margin-top: -70px;
+    margin-right: 227px;
     }
     footer img {
         float: right;
@@ -252,6 +248,21 @@ input[type=submit]{
 /** register page mobile **/
 
 @media only screen and (max-width: 769px) {
+	
+	#welcom #logo {
+      background-image: url(../images/logo.gif);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom;
+    padding-top: 90px;
+    margin-right: 13px;
+        
+    } 
+    #register input[type=text]{
+    	direction: rtl;
+    }
+	#register input[type=password]{
+    	direction: rtl;
+    }
     #register input[type=email] {
         height: 53px;
         width: 310px;
@@ -260,6 +271,7 @@ input[type=submit]{
         border: 4px solid;
         border-color: #abd146;
         margin-top: 25px;
+        direction:rtl;
         padding-right: 5px;
     }
     #register select {
@@ -273,13 +285,26 @@ input[type=submit]{
         padding-right: 5px;
     }
     #register form {
-        height: 570px;
+        /*height: 570px;*/
     }
     #register form .rights {
         padding-top: 30px;
+    float: right;
     }
     #register header h1 {
-        font-size: 32px;
+           font-size: 32px;
+    padding-left: 23px;
+    color:#006c52;
+    }
+    #register form p {
+    	float: right;
+    padding-right: 21px;
+    padding-top: 0px;
+    color: #006c52;
+    }
+    #register .left{
+    	    margin: 20px 10px 10px 10px;
+    float: left;
     }
 }
 
@@ -333,7 +358,7 @@ input[type=submit]{
     
     #master nav {
         position: relative;
-        width: 284px;
+        width: 469px;
         float: left;
         margin-left: -105px;
         margin-top: -14px;
@@ -445,29 +470,25 @@ input[type=submit]{
 /** Parent page Mobile **/
 
 @media only screen and (max-width: 769px) {
-    #master main {
-        border: 8px solid;
-        border-radius: 25px;
-        border-color: #abd146;
-        background-color: #FFFFFF;
-        height: 470px;
-        padding-top: 60px;
-        padding-right: 38px;
+   
+     #logo {
+        background-image: url(../images/logo.gif);
+        background-repeat: no-repeat;
+        background-position: right 0px bottom;
+        padding-top: 90px;
+        
     }
     #master #wrapper {
-        width: 600px;
+        width: 100%;
         margin: 0 auto;
-        padding-top: 25px;
+        padding-top: 0px;
         direction: rtl;
     }
     #master header h1 {
-        padding-bottom: 20px;
+            padding-right: 126px;
+    font-size: 30px;
     }
-    #master main img {
-        border: 4px solid;
-        border-radius: 150px;
-        border-color: #006c52;
-    }
+  
     /** Parent Menu **/
     
     #master nav .topnav {
@@ -479,193 +500,286 @@ input[type=submit]{
         margin: 0;
         padding: 0;
         overflow: hidden;
-        margin-left: -100px;
+        margin-left: 16px;
     }
     #master ul.topnav li {
-        float: left;
-        border-right: 4px solid;
+       text-align:center;
+        border: 4px solid;
         border-color: #abd046;
         padding: 10px;
         background-color: #FFFFFF;
-        border-radius: 15px;
     }
     /* position*/
     
     #master nav {
         position: relative;
-        width: 279px;
-        float: left;
-        margin-left: -105px;
-        margin-top: -14px;
+    width: 100%;
+    float: left;
+       margin-left: -6px;
+    margin-top: 31px;
     }
     /**/
     
     #master nav a {
         color: #006c52;
     }
-    #master nav>ul li:last-child {
-        border-right: 0px;
-    }
+
+	#master footer img {
+        float: right;
+            margin: 82px -2px;
+        padding: 1px;
+        border: 0px;
+    } 
     /** Parent header **/
     
-    #master header {
-        padding-bottom: -50px;
-    }
+   
     #master header .parent {
-        float: left;
-        visibility: hidden;
+            float: left;
+    margin-left: 139px;
+
     }
     #master header .kid2 {
-        float: left;
-        visibility: hidden;
+     
+        display:none;
+
     }
     #master header .kid1 {
-        visibility: hidden;
-        float: left;
+       display:none;
+
+
     }
     #master header .plus {
-        visibility: hidden;
-        float: left;
+              display:none;
+
     }
     #master main .kid2 {
-        border: 2px solid;
-        border-color: #006c52;
-        border-radius: 150px;
-        margin-right: -300px;
+              display:none;
+
     }
     #master main .kid1 {
-        margin-top: 50px;
-        border: 2px solid;
-        border-color: #006c52;
-        border-radius: 150px;
-        margin-right: -300px;
+              display:none;
+
     }
     #master main .pluskid {
-        margin-top: 20px;
-        padding: 10px;
-        border: 0px;
+         display:none;
+
     }
     #master .star {
-        visibility: hidden;
-        font-size: 30px;
-        cursor: pointer;
+              display:none;
+
     }
     #master .star:before {
-        content: "\2605";
-        position: absolute;
-        visibility: visible;
+               display:none;
+
     }
     #master .star:checked:before {
-        content: "\2606";
-        position: absolute;
+              display:none;
+
     }
     #master .day {
-        float: right;
-        position: relative;
-        margin-right: 150px;
-        margin-top: 50px;
+            display:none;
+
     }
     #master .day h4 {
-        padding-right: 10px;
-        letter-spacing: 3px;
-        color: #006C52;
+            display:none;
+
     }
     #master .book1 {
-        margin-left: 100px;
-        margin-top: -100px;
-        border-radius: 0px;
-        border: 0px;
-        float: left;
-        position: relative;
+               display:none;
+
     }
     #master .day2 {
-        margin-right: 150px;
-        margin-top: -60px;
-        float: right;
-        position: relative;
+              display:none;
+
     }
     #master .day2 h4 {
-        padding-right: 10px;
-        letter-spacing: 3px;
-        color: #006C52;
+       display:none;
     }
 }
 
 /*books page*/
-
-#books main {
-        border: 8px solid;
-        border-radius: 25px;
-        border-color: #abd146;
-        background-color: #FFFFFF;
-        min-height: 470px;
-        padding-top: 60px;
-        padding-right: 38px;
+@media only screen and (min-width: 769px) {
+	#books main {
+	        border: 8px solid;
+	        border-radius: 25px;
+	        border-color: #abd146;
+	        background-color: #FFFFFF;
+	        min-height: 470px;
+	        padding-top: 60px;
+	        padding-right: 38px;
+	    }
+	    
+	#books main img {
+	      	padding-top:10px;
+	        padding-right: 20px;
+	    }
+}
+@media only screen and (max-width: 769px) {
+	#books main {
+	       
+	    }
+	    
+	    #logo {
+        background-image: url(../images/logo.gif);
+        background-repeat: no-repeat;
+        background-position: right 0px bottom;
+        padding-top: 90px;
+            margin-right: 111px;
+        
     }
-    
-#books main img {
-      	padding-top:10px;
-        padding-right: 20px;
-    }
+	    
+	#books main img {
+		float:right;
+	      	padding-top:10px;
+	        padding-right: 195px;
+	    }
+	    
+	    #books a h1{
+	    	padding-bottom: 10px;
+       padding-right: 132px;
+    font-size: 30px;
+    color: #006c52;
+	    }
+	    #books footer img {
+            display: table-cell;
+    float: right;
+    margin: 1px 108px;
+    padding: 1px;
+    border: 0px;
+    } 
+}
     
 /*teacher page*/
-
-#teacher main {
-        border: 8px solid;
-        border-radius: 25px;
-        border-color: #abd146;
-        background-color: #FFFFFF;
-        min-height: 470px;
-        padding-top: 60px;
-        padding-right: 38px;
-    }
-    
- #teacher nav .topnav {
-        border: 4px solid;
-        border-color: #006c52;
-    }
-    #teacher ul.topnav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        border-radius: 15px;
-        margin-left: 110px;
-    }
-    #teacher ul.topnav li {
-        float: left;
-        border-right: 4px solid;
-        border-color: #006c52;
-        padding: 10px;
-        background-color: #FFFFFF;
-    }
-    /* position*/
-    
-    #teacher nav {
-      position: relative;
-    width: 430px;
+@media only screen and (min-width: 769px) {
+	#teacher main {
+	        border: 8px solid;
+	        border-radius: 25px;
+	        border-color: #abd146;
+	        background-color: #FFFFFF;
+	        min-height: 470px;
+	        padding-top: 60px;
+	        padding-right: 38px;
+	    }
+	    
+	 #teacher nav .topnav {
+	        border: 4px solid;
+	        border-color: #006c52;
+	    }
+	    #teacher ul.topnav {
+	        list-style-type: none;
+	        margin: 0;
+	        padding: 0;
+	        overflow: hidden;
+	        border-radius: 15px;
+	        margin-left: 110px;
+	    }
+	    #teacher ul.topnav li {
+	        float: left;
+	        border-right: 4px solid;
+	        border-color: #006c52;
+	        padding: 10px;
+	        background-color: #FFFFFF;
+	    }
+	    /* position*/
+	    
+	    #teacher nav {
+	      position: relative;
+	    width: 430px;
+	    float: right;
+	    margin-right: 111px;
+	    margin-top: -14px;
+	
+	    }
+	    /**/
+	    
+	    #teacher nav a {
+	        color: #006c52;
+	    }
+	    #teacher nav>ul li:last-child {
+	        border-right: 0px;
+	    }
+	    #teacher .kid2{
+	    	    float: left;
+	    margin: -107px 0px 0px 55px;
+	    border: solid 4px #006C52;
+	    border-radius: 49px;
+	    }
+}
+@media only screen and (max-width: 769px) {
+	#teacher main {
+	
+	    }
+	  #logo {
+        background-image: url(../images/logo.gif);
+        background-repeat: no-repeat;
+        background-position: right 0px bottom;
+        padding-top: 90px;
+            margin-right: 37px;
+        
+    }   
+	 #teacher nav .topnav {
+	        border: 4px solid;
+	        border-color: #006c52;
+	    }
+	    #teacher ul.topnav {
+	        list-style-type: none;
+	        margin: 0;
+	        padding: 0;
+	        overflow: hidden;
+	        border-radius: 15px;
+	        margin-left: 110px;
+	    }
+	    #teacher ul.topnav li {
+	        /*float: left;*/
+	       text-align:center;
+	        /*border-right: 4px solid;*/
+	        border-color: #006c52;
+	        padding: 10px;
+	        background-color: #FFFFFF;
+	    }
+	    /* position*/
+	    
+	    #teacher nav {
+	      position: relative;
+    width: 575px;
     float: right;
-    margin-right: 111px;
-    margin-top: -14px;
-
-    }
-    /**/
-    
-    #teacher nav a {
-        color: #006c52;
-    }
-    #teacher nav>ul li:last-child {
-        border-right: 0px;
-    }
-    #teacher .kid2{
-    	    float: left;
-    margin: -107px 0px 0px 55px;
-    border: solid 4px #006C52;
-    border-radius: 49px;
-    }
-    
+    margin-right: 8px;
+    margin-top: 10px;
+	    }
+	    /**/
+	    
+	    #teacher nav a {
+	        color: #006c52;
+	    }
+	    #teacher nav>ul li:last-child {
+	        border-right: 0px;
+	    }
+	    #teacher .kid2{
+	    	    float: left;
+	      margin: 11px 0px 0px 177px;
+	    border: solid 4px #006C52;
+	    border-radius: 49px;
+	    }
+	    #teacher h1{
+	    	padding-bottom: 10px;
+    padding-right: 150px;
+    font-size: 30px;
+    color: #006c52;
+	    }
+	    
+	    #teacher .content{
+	    	float:right;
+	    }
+	        #teacher footer img {
+            display: table-cell;
+    float: right;
+    margin: 1px 108px;
+    padding: 1px;
+    border: 0px;
+    } 
+}    
     /*manager page*/
-   
+@media only screen and (min-width: 769px) {
    #manager main {
         border: 8px solid;
         border-radius: 25px;
@@ -699,7 +813,7 @@ input[type=submit]{
     
     #manager nav {
       position: relative;
-    width: 278px;
+    width: 330px;
     float: right;
     margin-right: 111px;
     margin-top: -14px;
@@ -719,3 +833,79 @@ input[type=submit]{
     border: solid 4px #006C52;
     border-radius: 49px;
     }
+}
+@media only screen and (max-width: 769px) {
+    #manager #logo {
+          background-image: url(../images/logo.gif);
+    background-repeat: no-repeat;
+    background-position: right 0px bottom;
+    float: right;
+    padding-top: 90px;
+    margin-right: 14px;
+        
+    } 
+     #manager h1{
+	    padding-bottom: 10px;
+    padding-right: 211px;
+    margin-right: -93px;
+    font-size: 30px;
+    float: right;
+    color: #006c52;
+	    } 
+    #manager nav .topnav {
+	        border: 4px solid;
+	        border-color: #006c52;
+	    }
+	    #manager ul.topnav {
+	        list-style-type: none;
+	        margin: 0;
+	        padding: 0;
+	        overflow: hidden;
+	        border-radius: 15px;
+	        margin-left: 110px;
+	    }
+	    #manager ul.topnav li {
+	        /*float: left;*/
+	       text-align:center;
+	        /*border-right: 4px solid;*/
+	        border-color: #006c52;
+	        padding: 10px;
+	        background-color: #FFFFFF;
+	    }
+	    /* position*/
+	    
+	    #manager nav {
+	       position: relative;
+    width: 430px;
+    float: right;
+    margin-right: 7px;
+    margin-top: 10px;
+	    }
+	    /**/
+	    
+	    #manager nav a {
+	        color: #006c52;
+	    }
+	    #manager nav>ul li:last-child {
+	        border-right: 0px;
+	    }
+	    #manager .kid2{
+	    	    float: right;
+    margin: 24px 131px 0px 0px;
+    border: solid 4px #006C52;
+    border-radius: 49px;
+	    }
+	   
+	    
+	    #manager .content{
+	    	float:right;
+	    }
+	        #manager footer img {
+     display: table-cell;
+    float: right;
+    margin: 1px -28px;
+    padding: 1px;
+    border: 0px;
+    } 
+
+}
