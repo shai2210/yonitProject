@@ -1,6 +1,7 @@
 /**
  * @author shai
  */
+
 $(document).ready(function(){
    $("#getBooks").click(function(){
    	 $.ajax({
@@ -16,4 +17,21 @@ $(document).ready(function(){
       }
    });
 });
+
+
+ $("#getClass").click(function(){
+	var dataString1 = "id=1&func=P";
+
+	$.ajax({
+		type: 'POST',
+		url: 'new.php',
+		data: dataString1,
+		
+		success: function(data){
+			
+            $(".data").empty();
+            $(".data").append(data);
+		}
+		});
+	});
 });

@@ -1,25 +1,43 @@
 /**
- * @author shai
- */
-// require 'new.php';
+* @author shai
+*/
+
 $( document ).ready(function() {
-	   var path;
-        // var userId = $("input[name=userId]").val();
-        //var user = $("select[name=user]").val();
-        var dataString = "id=1&func=A";
-        // console.log(userId + "  " + user);
-        $.ajax({
-            type: 'POST',
-            url: 'new.php',
-            data: dataString,
-            cache: true,
-            success: function(data){ 
-            	console.log(data);               
-			$(".parent").append(data);
-			$(".name").append("שי");
-            }
-        });
-   
-	
-	$(".kid1").append("<img src=images/me.gif alt=parent/>");
+
+var dataString1 = "id=1&func=A";
+var dataString2 = "id=1&func=B";
+
+$.ajax({
+type: 'POST',
+url: 'new.php',
+data: dataString1,
+dataType: "json",
+success: function(data){
+var d = data['url'],
+p = "<img src= " + d + " />",
+n = data['name'];
+$(".parent").append(p);
+$(".name").append(n);
+bringChilds();
+}
+});
+
+var bringChilds = function(){
+$.ajax({
+type: 'POST',
+url: 'new.php',
+data: dataString2,
+dataType: "json",
+success: function(data){
+var kid1 = data[0]['child_url'],
+book1 = data[0]['book_url'],
+kid2 = data[1]['child_url'],
+book2 = data[1]['book_url'];
+$('.kid1').attr('src', kid1);
+$('.kid2').attr('src', kid2);
+$('#book1').attr('src', book1);
+$('#book2').attr('src', book2);
+}
+});
+}
 });
