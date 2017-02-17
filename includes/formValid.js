@@ -1,9 +1,7 @@
 /**
  * @author shai
  */
-/**
- * @author shai
- */
+
 function validateForm() {
     var x = document.forms["regsForm"]["fName"].value;
     if (x == "") {

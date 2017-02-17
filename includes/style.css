@@ -110,16 +110,6 @@ a {
         margin-top: 25px;
         padding-right: 5px;
     }
-    /*
-input[type=submit]{
-	height:100px;
-	width:100px;
-	margin-right:500px;
-	margin-top: -30px;
-    background: url(../images/submit.png);
-    border: 0px;
-}*/
-    
     form .submit a {
         margin-top: -40px;
         margin-right: 450px;
@@ -134,38 +124,22 @@ input[type=submit]{
 /** Welcome mobile **/
 
 @media only screen and (max-width: 769px) {
-#welcom #logo {
-           background-image: url(../images/logo.gif);
-    background-repeat: no-repeat;
-    background-position: right 0px bottom;
-    padding-top: 90px;
-    margin-right: 15px;
-        
-    } 
-     #welcom h1{
-	padding-bottom: 10px;
-    padding-left: 35px;
-    font-size: 30px;
-    color: #006c52;
-	    } 
-    #wrapper {
-        /*width: 480px;
-        margin: 0 auto;
-        padding-top: 25px;
-        direction: rtl;*/
+    #welcom #logo {
+        background-image: url(../images/logo.gif);
+        background-repeat: no-repeat;
+        background-position: right 0px bottom;
+        padding-top: 90px;
+        margin-right: 15px;
+    }
+    #welcom h1 {
+        padding-bottom: 10px;
+        padding-left: 35px;
+        font-size: 30px;
+        color: #006c52;
     }
     body {
         font-family: "arial";
         background-color: #f3f3f3;
-    }
- 
-    form {
-        /*border: 8px solid;
-        border-radius: 25px;
-        border-color: #abd146;
-        background-color: #FFFFFF;
-        height: 470px;
-        padding-top: 60px;*/
     }
     form .message a {
         color: #006c52;
@@ -173,12 +147,12 @@ input[type=submit]{
         display: inline;
     }
     #welcom p {
-            float: right;
-    padding: 10px;
-    color: #006c52;
+        float: right;
+        padding: 10px;
+        color: #006c52;
     }
     form .rights {
-    	float:right;
+        float: right;
         padding-top: 80px;
     }
     input[type=text] {
@@ -200,10 +174,9 @@ input[type=submit]{
         margin-top: 25px;
         padding-right: 15px;
     }
-    
     form .submit a {
-          margin-top: -70px;
-    margin-right: 227px;
+        margin-top: -70px;
+        margin-right: 227px;
     }
     footer img {
         float: right;
@@ -248,20 +221,18 @@ input[type=submit]{
 /** register page mobile **/
 
 @media only screen and (max-width: 769px) {
-	
-	#welcom #logo {
-      background-image: url(../images/logo.gif);
-    background-repeat: no-repeat;
-    background-position: right 0px bottom;
-    padding-top: 90px;
-    margin-right: 13px;
-        
-    } 
-    #register input[type=text]{
-    	direction: rtl;
+    #welcom #logo {
+        background-image: url(../images/logo.gif);
+        background-repeat: no-repeat;
+        background-position: right 0px bottom;
+        padding-top: 90px;
+        margin-right: 13px;
     }
-	#register input[type=password]{
-    	direction: rtl;
+    #register input[type=text] {
+        direction: rtl;
+    }
+    #register input[type=password] {
+        direction: rtl;
     }
     #register input[type=email] {
         height: 53px;
@@ -271,7 +242,7 @@ input[type=submit]{
         border: 4px solid;
         border-color: #abd146;
         margin-top: 25px;
-        direction:rtl;
+        direction: rtl;
         padding-right: 5px;
     }
     #register select {
@@ -284,31 +255,28 @@ input[type=submit]{
         margin-top: 25px;
         padding-right: 5px;
     }
-    #register form {
-        /*height: 570px;*/
-    }
     #register form .rights {
         padding-top: 30px;
-    float: right;
+        float: right;
     }
     #register header h1 {
-           font-size: 32px;
-    padding-left: 23px;
-    color:#006c52;
+        font-size: 32px;
+        padding-left: 23px;
+        color: #006c52;
     }
     #register form p {
-    	float: right;
-    padding-right: 21px;
-    padding-top: 0px;
-    color: #006c52;
+        float: right;
+        padding-right: 21px;
+        padding-top: 0px;
+        color: #006c52;
     }
-    #register .left{
-    	    margin: 20px 10px 10px 10px;
-    float: left;
+    #register .left {
+        margin: 20px 10px 10px 10px;
+        float: left;
     }
 }
-
 /*parent page*/
+
 @media only screen and (min-width: 769px) {
     #master main {
         border: 8px solid;
@@ -354,17 +322,13 @@ input[type=submit]{
         padding: 10px;
         background-color: #FFFFFF;
     }
-    /* position*/
-    
     #master nav {
         position: relative;
-        width: 469px;
+        width: 285px;
         float: left;
         margin-left: -105px;
         margin-top: -14px;
-    }
-    /**/
-    
+    }    
     #master nav a {
         color: #006c52;
     }
@@ -378,7 +342,6 @@ input[type=submit]{
         position: relative;
         top: -130px;
         left: 40px;
-        border: 4px solid;
         border-color: #006c52;
         border-radius: 150px;
     }
@@ -467,16 +430,15 @@ input[type=submit]{
         color: #006C52;
     }
 }
+
 /** Parent page Mobile **/
 
 @media only screen and (max-width: 769px) {
-   
-     #logo {
+    #logo {
         background-image: url(../images/logo.gif);
         background-repeat: no-repeat;
         background-position: right 0px bottom;
         padding-top: 90px;
-        
     }
     #master #wrapper {
         width: 100%;
@@ -485,10 +447,9 @@ input[type=submit]{
         direction: rtl;
     }
     #master header h1 {
-            padding-right: 126px;
-    font-size: 30px;
+        padding-right: 126px;
+        font-size: 30px;
     }
-  
     /** Parent Menu **/
     
     #master nav .topnav {
@@ -503,284 +464,80 @@ input[type=submit]{
         margin-left: 16px;
     }
     #master ul.topnav li {
-       text-align:center;
+        text-align: center;
         border: 4px solid;
         border-color: #abd046;
         padding: 10px;
         background-color: #FFFFFF;
     }
-    /* position*/
-    
     #master nav {
         position: relative;
-    width: 100%;
-    float: left;
-       margin-left: -6px;
-    margin-top: 31px;
+        width: 100%;
+        float: left;
+        margin-left: -6px;
+        margin-top: 31px;
     }
-    /**/
-    
-    #master nav a {
+	#master nav a {
         color: #006c52;
     }
-
-	#master footer img {
+    #master footer img {
         float: right;
-            margin: 82px -2px;
+        margin: 82px -2px;
         padding: 1px;
         border: 0px;
-    } 
-    /** Parent header **/
-    
-   
+    }
     #master header .parent {
-            float: left;
-    margin-left: 139px;
-
+    	margin-top: 13px;
+        float: left;
+        margin-left: 139px;
     }
     #master header .kid2 {
-     
-        display:none;
-
+        display: none;
     }
     #master header .kid1 {
-       display:none;
-
-
+        display: none;
     }
     #master header .plus {
-              display:none;
-
+        display: none;
     }
     #master main .kid2 {
-              display:none;
-
+        display: none;
     }
     #master main .kid1 {
-              display:none;
-
+        display: none;
     }
     #master main .pluskid {
-         display:none;
-
+        display: none;
     }
     #master .star {
-              display:none;
-
+        display: none;
     }
     #master .star:before {
-               display:none;
-
+        display: none;
     }
     #master .star:checked:before {
-              display:none;
-
+        display: none;
     }
     #master .day {
-            display:none;
-
+        display: none;
     }
     #master .day h4 {
-            display:none;
-
+        display: none;
     }
     #master .book1 {
-               display:none;
-
+        display: none;
     }
     #master .day2 {
-              display:none;
-
+        display: none;
     }
     #master .day2 h4 {
-       display:none;
+        display: none;
     }
 }
-
-/*books page*/
-@media only screen and (min-width: 769px) {
-	#books main {
-	        border: 8px solid;
-	        border-radius: 25px;
-	        border-color: #abd146;
-	        background-color: #FFFFFF;
-	        min-height: 470px;
-	        padding-top: 60px;
-	        padding-right: 38px;
-	    }
-	    
-	#books main img {
-	      	padding-top:10px;
-	        padding-right: 20px;
-	    }
-}
-@media only screen and (max-width: 769px) {
-	#books main {
-	       
-	    }
-	    
-	    #logo {
-        background-image: url(../images/logo.gif);
-        background-repeat: no-repeat;
-        background-position: right 0px bottom;
-        padding-top: 90px;
-            margin-right: 111px;
-        
-    }
-	    
-	#books main img {
-		float:right;
-	      	padding-top:10px;
-	        padding-right: 195px;
-	    }
-	    
-	    #books a h1{
-	    	padding-bottom: 10px;
-       padding-right: 132px;
-    font-size: 30px;
-    color: #006c52;
-	    }
-	    #books footer img {
-            display: table-cell;
-    float: right;
-    margin: 1px 108px;
-    padding: 1px;
-    border: 0px;
-    } 
-}
-    
 /*teacher page*/
+
 @media only screen and (min-width: 769px) {
-	#teacher main {
-	        border: 8px solid;
-	        border-radius: 25px;
-	        border-color: #abd146;
-	        background-color: #FFFFFF;
-	        min-height: 470px;
-	        padding-top: 60px;
-	        padding-right: 38px;
-	    }
-	    
-	 #teacher nav .topnav {
-	        border: 4px solid;
-	        border-color: #006c52;
-	    }
-	    #teacher ul.topnav {
-	        list-style-type: none;
-	        margin: 0;
-	        padding: 0;
-	        overflow: hidden;
-	        border-radius: 15px;
-	        margin-left: 110px;
-	    }
-	    #teacher ul.topnav li {
-	        float: left;
-	        border-right: 4px solid;
-	        border-color: #006c52;
-	        padding: 10px;
-	        background-color: #FFFFFF;
-	    }
-	    /* position*/
-	    
-	    #teacher nav {
-	      position: relative;
-	    width: 430px;
-	    float: right;
-	    margin-right: 111px;
-	    margin-top: -14px;
-	
-	    }
-	    /**/
-	    
-	    #teacher nav a {
-	        color: #006c52;
-	    }
-	    #teacher nav>ul li:last-child {
-	        border-right: 0px;
-	    }
-	    #teacher .kid2{
-	    	    float: left;
-	    margin: -107px 0px 0px 55px;
-	    border: solid 4px #006C52;
-	    border-radius: 49px;
-	    }
-}
-@media only screen and (max-width: 769px) {
-	#teacher main {
-	
-	    }
-	  #logo {
-        background-image: url(../images/logo.gif);
-        background-repeat: no-repeat;
-        background-position: right 0px bottom;
-        padding-top: 90px;
-            margin-right: 37px;
-        
-    }   
-	 #teacher nav .topnav {
-	        border: 4px solid;
-	        border-color: #006c52;
-	    }
-	    #teacher ul.topnav {
-	        list-style-type: none;
-	        margin: 0;
-	        padding: 0;
-	        overflow: hidden;
-	        border-radius: 15px;
-	        margin-left: 110px;
-	    }
-	    #teacher ul.topnav li {
-	        /*float: left;*/
-	       text-align:center;
-	        /*border-right: 4px solid;*/
-	        border-color: #006c52;
-	        padding: 10px;
-	        background-color: #FFFFFF;
-	    }
-	    /* position*/
-	    
-	    #teacher nav {
-	      position: relative;
-    width: 575px;
-    float: right;
-    margin-right: 8px;
-    margin-top: 10px;
-	    }
-	    /**/
-	    
-	    #teacher nav a {
-	        color: #006c52;
-	    }
-	    #teacher nav>ul li:last-child {
-	        border-right: 0px;
-	    }
-	    #teacher .kid2{
-	    	    float: left;
-	      margin: 11px 0px 0px 177px;
-	    border: solid 4px #006C52;
-	    border-radius: 49px;
-	    }
-	    #teacher h1{
-	    	padding-bottom: 10px;
-    padding-right: 150px;
-    font-size: 30px;
-    color: #006c52;
-	    }
-	    
-	    #teacher .content{
-	    	float:right;
-	    }
-	        #teacher footer img {
-            display: table-cell;
-    float: right;
-    margin: 1px 108px;
-    padding: 1px;
-    border: 0px;
-    } 
-}    
-    /*manager page*/
-@media only screen and (min-width: 769px) {
-   #manager main {
+    #teacher main {
         border: 8px solid;
         border-radius: 25px;
         border-color: #abd146;
@@ -789,11 +546,124 @@ input[type=submit]{
         padding-top: 60px;
         padding-right: 38px;
     }
-    #manager main img{
-    	padding-left: 20px;
-    	padding-bottom: 10px;
+    #teacher nav .topnav {
+        border: 4px solid;
+        border-color: #006c52;
     }
- #manager nav .topnav {
+    #teacher ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-left: 110px;
+    }
+    #teacher ul.topnav li {
+        float: left;
+        border-right: 4px solid;
+        border-color: #006c52;
+        padding: 10px;
+        background-color: #FFFFFF;
+    }
+    #teacher nav {
+        position: relative;
+        width: 430px;
+        float: right;
+        margin-right: 111px;
+        margin-top: -14px;
+    }
+    #teacher nav a {
+        color: #006c52;
+    }
+    #teacher nav>ul li:last-child {
+        border-right: 0px;
+    }
+    #teacher .kid2 {
+        float: left;
+        margin: -107px 0px 0px 55px;
+        border: solid 4px #006C52;
+        border-radius: 49px;
+    }
+}
+@media only screen and (max-width: 769px) {
+    #teacher main {} #logo {
+        background-image: url(../images/logo.gif);
+        background-repeat: no-repeat;
+        background-position: right 0px bottom;
+        padding-top: 90px;
+        margin-right: 37px;
+    }
+    #teacher nav .topnav {
+        border: 4px solid;
+        border-color: #006c52;
+    }
+    #teacher ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-left: 110px;
+    }
+    #teacher ul.topnav li {
+        text-align: center;
+        border-color: #006c52;
+        padding: 10px;
+        background-color: #FFFFFF;
+    }
+    #teacher nav {
+        position: relative;
+        width: 575px;
+        float: right;
+        margin-right: 8px;
+        margin-top: 10px;
+    }   
+    #teacher nav a {
+        color: #006c52;
+    }
+    #teacher nav>ul li:last-child {
+        border-right: 0px;
+    }
+    #teacher .kid2 {
+        float: left;
+        margin: 11px 0px 0px 177px;
+        border: solid 4px #006C52;
+        border-radius: 49px;
+    }
+    #teacher h1 {
+        padding-bottom: 10px;
+        padding-right: 150px;
+        font-size: 30px;
+        color: #006c52;
+    }
+    #teacher .content {
+        float: right;
+    }
+    #teacher footer img {
+        display: table-cell;
+        float: right;
+        margin: 1px 108px;
+        padding: 1px;
+        border: 0px;
+    }
+}
+
+/*manager page*/
+@media only screen and (min-width: 769px) {
+    #manager main {
+        border: 8px solid;
+        border-radius: 25px;
+        border-color: #abd146;
+        background-color: #FFFFFF;
+        min-height: 470px;
+        padding-top: 60px;
+        padding-right: 38px;
+    }
+    #manager main img {
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    #manager nav .topnav {
         border: 4px solid;
         border-color: #006c52;
     }
@@ -812,108 +682,126 @@ input[type=submit]{
         padding: 10px;
         background-color: #FFFFFF;
     }
-    /* position*/
-    
     #manager nav {
-      position: relative;
-    width: 330px;
-    float: right;
-    margin-right: 111px;
-    margin-top: -14px;
-
-    }
-    /**/
-    
+        position: relative;
+        width: 352px;
+        float: right;
+        margin-right: 111px;
+        margin-top: -14px;
+    } 
     #manager nav a {
         color: #006c52;
     }
     #manager nav>ul li:last-child {
         border-right: 0px;
     }
-    #manager .kid2{
-    	    float: left;
-    margin: -107px 0px 0px 55px;
-    border: solid 4px #006C52;
-    border-radius: 49px;
+    #manager .kid2 {
+        float: left;
+        margin: -107px 0px 0px 55px;
+        border: solid 4px #006C52;
+        border-radius: 49px;
+    }
+    #manager main table {
+        table-layout: fixed;
+        width: 96%;
+        text-align: center;
+        margin: 0 auto;
+        float: right;
+    }
+    #manager main table tr {
+        height: 30px;
+    }
+    #manager main table tr:nth-child(even) {
+        background-color: #f2f2f2
+    }
+    #manager main table tr:first-child {
+        background-color: #AAB97E
     }
 }
 @media only screen and (max-width: 769px) {
     #manager #logo {
-          background-image: url(../images/logo.gif);
-    background-repeat: no-repeat;
-    background-position: right 0px bottom;
-    float: right;
-    padding-top: 90px;
-    margin-right: 14px;
-        
-    } 
-     #manager main label img{
-		padding-top:10px;
-    	padding-left: 130px;
-   		padding-bottom: 10px;
+        background-image: url(../images/logo.gif);
+        background-repeat: no-repeat;
+        background-position: right 0px bottom;
+        float: right;
+        padding-top: 90px;
+        margin-right: 14px;
     }
-     #manager h1{
-	    padding-bottom: 10px;
-    padding-right: 211px;
-    margin-right: -93px;
-    font-size: 30px;
-    float: right;
-    color: #006c52;
-	    } 
+    #manager main label img {
+        padding-top: 10px;
+        padding-left: 130px;
+        padding-bottom: 10px;
+    }
+    #manager h1 {
+        padding-bottom: 10px;
+        padding-right: 211px;
+        margin-right: -93px;
+        font-size: 30px;
+        float: right;
+        color: #006c52;
+    }
     #manager nav .topnav {
-	        border: 4px solid;
-	        border-color: #006c52;
-	    }
-	    #manager ul.topnav {
-	        list-style-type: none;
-	        margin: 0;
-	        padding: 0;
-	        overflow: hidden;
-	        border-radius: 15px;
-	        margin-left: 110px;
-	    }
-	    #manager ul.topnav li {
-	        /*float: left;*/
-	       text-align:center;
-	        /*border-right: 4px solid;*/
-	        border-color: #006c52;
-	        padding: 10px;
-	        background-color: #FFFFFF;
-	    }
-	    /* position*/
-	    
-	    #manager nav {
-	       position: relative;
-    width: 430px;
-    float: right;
-    margin-right: 7px;
-    margin-top: 10px;
-	    }
-	    /**/
-	    
-	    #manager nav a {
-	        color: #006c52;
-	    }
-	    #manager nav>ul li:last-child {
-	        border-right: 0px;
-	    }
-	    #manager .kid2{
-	    	    float: right;
-    margin: 24px 131px 0px 0px;
-    border: solid 4px #006C52;
-    border-radius: 49px;
-	    }
-	   
-	    
-	    #manager .content{
-	    	float:right;
-	    }
-	        #manager footer img {
-     display: table-cell;
-    float: right;
-    margin: 1px -28px;
-    padding: 1px;
-    border: 0px;
-    } 
-
+        border: 4px solid;
+        border-color: #006c52;
+    }
+    #manager ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 15px;
+        margin-left: 110px;
+    }
+    #manager ul.topnav li {
+        text-align: center;
+        border-color: #006c52;
+        padding: 10px;
+        background-color: #FFFFFF;
+    }
+    /* position*/
+    #manager nav {
+        position: relative;
+        width: 430px;
+        float: right;
+        margin-right: 26px;
+        margin-top: 10px;
+    }
+    #manager nav a {
+        color: #006c52;
+    }
+    #manager nav>ul li:last-child {
+        border-right: 0px;
+    }
+    #manager .kid2 {
+        float: right;
+        margin: 24px 131px 0px 0px;
+        border: solid 4px #006C52;
+        border-radius: 49px;
+    }
+    #manager .content {
+        float: right;
+    }
+    #manager footer img {
+        display: table-cell;
+        float: right;
+        margin: 1px -28px;
+        padding: 1px;
+        border: 0px;
+    }
+    #manager main table {
+        width: 86%;
+        table-layout: fixed;
+        padding-top: 24px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #manager main table tr {
+        height: 30px;
+    }
+    #manager main table tr:nth-child(even) {
+        background-color: #f2f2f2
+    }
+    #manager main table tr:first-child {
+        background-color: #AAB97E
+    }
 }
