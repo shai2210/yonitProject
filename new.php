@@ -30,10 +30,18 @@
 	function fetchPerson($id){
 		$query = "SELECT url FROM tbl_users_227 WHERE id=$id";
 		$mysqli = connect();
+		
 		if ($result = $mysqli->query($query)) {
 			$row = $result->fetch_assoc();
 			$pic = $row["url"];
-			echo ("<img src=$pic alt=parent/>");			
+			$name = $row["name"];
+			$ar=array('url'=> 5);
+			$answer=$name;
+			echo ($answer);
+			// $s='$pic';
+		// header("Content-type: application/json");	
+			// echo json_encode($ar);		
+				
 			
 			// $query = "SELECT tbl_users_227.url 
 				  // FROM tbl_users_227 

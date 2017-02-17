@@ -1,7 +1,7 @@
 {"book":[
-	{"id":"1" , "url": "images/miryam.png","auther":"yael"},
-	{"id":"2" , "url": "images/yael.jpg","auther":"shai"},
-	{"id":"2" , "url": "images/ploto.jpg","auther":"shai"},
+	{"id":"1" , "url": "images/ploto.jpg","auther":"shai"},
 	{"id":"2" , "url": "images/prince.jpg","auther":"shai"},
-	{"id":"3" , "url": "images/yael.jpg","auther":"tsachi"}
+	{"id":"3" , "url": "images/miryam.png","auther":"yael"},
+	{"id":"4" , "url": "images/yael.jpg","auther":"shai"}
+	
 ]}

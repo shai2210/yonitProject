@@ -789,7 +789,10 @@ input[type=submit]{
         padding-top: 60px;
         padding-right: 38px;
     }
-    
+    #manager main img{
+    	padding-left: 20px;
+    	padding-bottom: 10px;
+    }
  #manager nav .topnav {
         border: 4px solid;
         border-color: #006c52;
@@ -844,6 +847,11 @@ input[type=submit]{
     margin-right: 14px;
         
     } 
+     #manager main label img{
+		padding-top:10px;
+    	padding-left: 130px;
+   		padding-bottom: 10px;
+    }
      #manager h1{
 	    padding-bottom: 10px;
     padding-right: 211px;

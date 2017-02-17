@@ -2,7 +2,8 @@
  * @author shai
  */
 $(document).ready(function(){
-   $.ajax({
+   $("#getBooks").click(function(){
+   	 $.ajax({
       url: 'includes/books.json',
       dataType: 'json',
       success: function(data) {
@@ -14,4 +15,5 @@ $(document).ready(function(){
          console.log('error', error);
       }
    });
+});
 });
