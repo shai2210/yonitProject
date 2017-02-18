@@ -20,39 +20,7 @@ $(document).ready(function() {
             bringChilds();
         }
     });
-$("#mangeLibrary").click(function() {
-        $.ajax({
-            url: 'includes/books.json',
-            dataType: 'json',
-            success: function(data) {
-                $("main").empty();
-                
-                    $("main").append('<img src=" ' + data['book'][2].url + '"style=border:none;border-radius:0px;padding-left:15px;' +'>');
-                    $("main").append('<img src=" ' + data['book'][3].url + '"style=border:none;border-radius:0px;padding-left:15px;' +'>');
-                
-            },
-            error: function(request, status, error) {
-                console.log('error', error);
-            }
-        });
-    });
-    $("#readingRecomends").click(function() {
-        $.ajax({
-            url: 'includes/books.json',
-            dataType: 'json',
-            success: function(data) {
-                $("main").empty();
-                
-                    $("main").append('<img src=" ' + data['book'][0].url + '"style=border:none;border-radius:0px;padding-left:15px;' +'>');
-
-                
-            },
-            error: function(request, status, error) {
-                console.log('error', error);
-            }
-        });
-    });
-    var bringChilds = function() {
+     var bringChilds = function() {
         $.ajax({
             type: 'POST',
             url: 'server.php',
@@ -70,4 +38,41 @@ $("#mangeLibrary").click(function() {
             }
         });
     };
+    
+    
+	$("#mangeLibrary").click(function() {
+	        $.ajax({
+	            url: 'includes/books.json',
+	            dataType: 'json',
+	            success: function(data) {
+	                $("main").empty();
+	                
+	                    $("main").append('<img src=" ' + data['book'][2].url + '"style=border:none;border-radius:0px;padding-left:15px;' +'>');
+	                    $("main").append('<img src=" ' + data['book'][3].url + '"style=border:none;border-radius:0px;padding-left:15px;' +'>');
+	                
+	            },
+	            error: function(request, status, error) {
+	                console.log('error', error);
+	            }
+	        });
+	    });
+    $("#readingRecomends").click(function() {
+        $.ajax({
+            url: 'includes/books.json',
+            dataType: 'json',
+            success: function(data) {
+                $("main").empty();
+                
+                    $("main").append('<img src=" ' + data['book'][0].url + '"style=border:none;border-radius:0px;padding-left:15px;' +'>');
+
+                
+            },
+            error: function(request, status, error) {
+                console.log('error', error);
+            }
+        });
+    });
+    $("#logo").click(function() {
+           window.location.assign("parent.html");
+    });
 });

@@ -2,6 +2,23 @@
  * @author shai
  */
 $(document).ready(function() {
+	
+	 var dataString2 = "id=13&func=A";
+
+    $.ajax({
+        type: 'POST',
+        url: 'server.php',
+        data: dataString2,
+        dataType: "json",
+        success: function(data) {
+            var d = data['url'],
+                p = "<img src= " + d + " />",
+                n = data['name'];
+            $(".kid2").append(p);
+            $(".name").append(n);
+         
+        }
+    });
     $("#getBooks").click(function() {
         $.ajax({
             url: 'includes/books.json',
@@ -34,4 +51,5 @@ $(document).ready(function() {
             }
         });
     });
+    
 });

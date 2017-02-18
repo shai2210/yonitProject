@@ -10,7 +10,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="includes/navAnimation.js"></script>
     <script src="includes/teacher.js"></script>
-
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 </head>
 
@@ -19,27 +20,25 @@
         <header>
             <section>
                 <a href='#' id="logo">
-                    <h1> ספריית קיפודים </h1>
+                  <h1><label class="name"></label> ברוך הבא </h1>
                 </a>
 
             </section>
-            <a href="#"><img class="kid2" src="images/yuval.gif" alt="kid2" />
+             <a href="#" class="kid2">
             </a>
         </header>
         <nav>
             <ul class="topnav">
-                <li><a href="#">חיפוש תלמידים</a>
+                <li id="show-students"><a href="#"> התלמידים שלי</a>
                 </li>
-                <li><a href="#">הוספת כיתה</a>
-                </li>
-                <li><a href="#">הכיתה שלי</a>
+                <li id="add-student"><a href="#">הוספת תלמיד</a>
                 </li>
 
             </ul>
         </nav>
         <main>
             <label class="content"></label>
-
+            <form id="teacher-form" action=""><label class="label-add">בחר תלמיד להוספה: </label><input id="submit-student" type="submit" value="הוסף"></form>
         </main>
         <footer>
             <img src="images/logo2.gif" alt="stimatzki logo" />
