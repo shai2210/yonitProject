@@ -24,7 +24,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: 'POST',
-            url: 'new.php',
+            url: 'server.php',
             data: dataString1,
 
             success: function(data) {
