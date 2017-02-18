@@ -47,8 +47,8 @@ $(document).ready(function() {
 	            success: function(data) {
 	                $("main").empty();
 	                
-	                    $("main").append('<img src=" ' + data['book'][2].url + '"style=border:none;border-radius:0px;padding-left:15px;' +'>');
-	                    $("main").append('<img src=" ' + data['book'][3].url + '"style=border:none;border-radius:0px;padding-left:15px;' +'>');
+	                    $("main").append('<img src=" ' + data['book'][2].url + '"style=border:none;border-radius:0px;padding-left:40px;' +'>');
+	                    $("main").append('<img src=" ' + data['book'][3].url + '"style=border:none;border-radius:0px;padding-left:40px;' +'>');
 	                
 	            },
 	            error: function(request, status, error) {

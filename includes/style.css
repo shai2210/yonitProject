@@ -25,6 +25,15 @@ a {
     margin: -54px 10px 10px 10px;
     float: left;
 }
+#logOut{
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	text-decoration: none;
+	color:#282F36;
+	float: left;
+	 border: none;
+	 background-color: #F3F3F3;
+	}
 
 /** Welcome Page **/
 
@@ -135,10 +144,11 @@ a {
     }
    
     #welcom h1 {
-        padding-bottom: 10px;
-        padding-left: 35px;
-        font-size: 30px;
-        color: #006c52;
+            padding-bottom: 0px;
+    padding-left: 73px;
+    font-size: 30px;
+    color: #006c52;
+    margin-right: 98px;
     }
     body {
         font-family: "arial";
@@ -270,8 +280,9 @@ a {
     }
     #register header h1 {
         font-size: 32px;
-        padding-left: 23px;
-        color: #006c52;
+    padding-left: -11px;
+    color: #006c52;
+    margin-right: 106px;
     }
     #register form p {
         float: right;
@@ -332,11 +343,11 @@ a {
         background-color: #FFFFFF;
     }
     #master nav {
-        position: relative;
-        width: 285px;
-        float: left;
-        margin-left: -105px;
-        margin-top: -14px;
+            position: relative;
+    width: 282px;
+    float: left;
+    margin-left: 193px;
+    margin-top: -14px;
     }    
     #master nav a {
         color: #006c52;
@@ -438,6 +449,7 @@ a {
         letter-spacing: 3px;
         color: #006C52;
     }
+    
 }
 
 /** Parent page Mobile **/
@@ -448,6 +460,11 @@ a {
         background-repeat: no-repeat;
         background-position: right 0px bottom;
         padding-top: 90px;
+    }
+    #master main img{
+    	border: none;
+   		border-radius: 0px;
+    	padding-left: 40px;
     }
     #master #wrapper {
         width: 100%;
@@ -491,7 +508,7 @@ a {
     }
     #master footer img {
         float: right;
-        margin: 82px -2px;
+        margin: 0px -2px;
         padding: 1px;
         border: 0px;
     }
@@ -576,7 +593,7 @@ a {
     }
     #teacher nav {
         position: relative;
-        width: 430px;
+        width: 339px;
         float: right;
         margin-right: 111px;
         margin-top: -14px;
@@ -590,7 +607,7 @@ a {
     #teacher .kid2 {
         float: left;
         margin: -107px 0px 0px 55px;
-        border: solid 4px #006C52;
+        /*border: solid 4px #006C52;*/
         border-radius: 49px;
     }
       #teacher input[type=submit] {
@@ -608,10 +625,12 @@ a {
 @media only screen and (max-width: 769px) {
     #teacher main {} #logo {
         background-image: url(../images/logo.gif);
-        background-repeat: no-repeat;
-        background-position: right 0px bottom;
-        padding-top: 90px;
-        margin-right: 37px;
+    background-repeat: no-repeat;
+    background-position: right 0px bottom;
+    float: right;
+    padding-top: 90px;
+    margin-right: 14px;
+
     }
     #teacher nav .topnav {
         border: 4px solid;
@@ -633,7 +652,7 @@ a {
     }
     #teacher nav {
         position: relative;
-        width: 575px;
+        width: 467px;
         float: right;
         margin-right: 8px;
         margin-top: 10px;
@@ -646,8 +665,8 @@ a {
     }
     #teacher .kid2 {
         float: left;
-        margin: 11px 0px 0px 177px;
-        border: solid 4px #006C52;
+        margin: 11px 0px 0px 138px;
+        /*border: solid 4px #006C52;*/
         border-radius: 49px;
     }
     #teacher h1 {
@@ -660,33 +679,37 @@ a {
         float: right;
     }
     #teacher footer img {
-        display: table-cell;
-        float: right;
-        margin: 1px 108px;
-        padding: 1px;
-        border: 0px;
+           float: right;
+    margin: 0px -2px;
+    padding: 1px;
+    border: 0px;
     }
     #teacher-form{
     	float:right;
     }
     .label-add{
-    	font-size:50px;
+    	    font-size: 43px;
+    margin-right: 15px;
+    direction: ltr;
+    float: right;
+        margin-bottom: 20px;
     }
    #teacher select{
-    	    font-size: 46px;
+    	        font-size: 46px;
     float: right;
-    margin-right: 100px;
+    margin-right: 130px;
     }
     #teacher input[type=submit] {
         height: 53px;
-        width: 310px;
-        border-radius: 15px;
-        font-size: 20px;
-        border: 4px solid;
-        border-color: #abd146;
-        margin-top: 25px;
-        direction: rtl;
-        padding-right: 5px;
+    width: 310px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 4px solid;
+    border-color: #abd146;
+    margin-top: 25px;
+    direction: rtl;
+    /* padding-right: 16px; */
+    margin-left: 27px;
     }
 }
 /*manager page*/
@@ -739,7 +762,7 @@ a {
     #manager .kid2 {
         float: left;
         margin: -107px 0px 0px 55px;
-        border: solid 4px #006C52;
+        /*border: solid 4px #006C52;*/
         border-radius: 49px;
     }
     main table {
@@ -816,7 +839,7 @@ a {
     #manager .kid2 {
         float: right;
         margin: 24px 131px 0px 0px;
-        border: solid 4px #006C52;
+        /*border: solid 4px #006C52;*/
         border-radius: 49px;
     }
     #manager .content {
@@ -825,7 +848,7 @@ a {
     #manager footer img {
         display: table-cell;
         float: right;
-        margin: 1px -28px;
+        margin: 0px 0px;
         padding: 1px;
         border: 0px;
     }
