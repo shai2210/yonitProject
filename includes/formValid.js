@@ -21,7 +21,6 @@ function validateForm() {
      var w = document.forms["regsForm"]["email"].value;
     if (w == "") {
         alert("Email must be filled out");
-        debugger;
         return false;
             	 
 
@@ -29,20 +28,23 @@ function validateForm() {
     else
     {
     	
-    	 // var name= document.forms["regsForm"]["fName"].value;
-    	  // var url= document.forms["regsForm"]["email"].value;
-    	  // var type = document.forms["regsForm"]["type"].value;
-    	  // var dataString1 =  "func=A&name=" + name "url=" + url "type="type;
+    	  var name= document.forms["regsForm"]["fName"].value;
+    	   var url= document.forms["regsForm"]["email"].value;
+    	   var type = document.forms["regsForm"]["type"].value;
+    	   var dataString1 =  "func=U&name=" + name +"&url=" + url +"&type="+type;
     	 debugger;
-        // $.ajax({
-            // type: 'POST',
-            // url: 'server.php',
-            // data: dataString1,
-            // dataType: "json",
-            // success: function(data) {
+        $.ajax({
+            type: 'POST',
+            url: 'server.php',
+            data: dataString1,
+            dataType: "json",
+            success: function(data) {
+            	debugger;
+            	console.log(data);
+            }
+            	});
     	return true;
     } 
-    
 }
 $( document ).ready(function() {
     var submit = $('.submit');

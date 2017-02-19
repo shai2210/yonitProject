@@ -131,6 +131,7 @@ function showStudentForTeacher()
 
 function insertUser($name,$url,$type)
 {
+	var_dump($name,$url,$type);
     $query = "INSERT IGNORE INTO tbl_users_227 (name,url,type)VALUES ($name,$url,$id)";
     $mysqli = connect();
     $mysqli->set_charset("utf8");
@@ -155,6 +156,10 @@ if ($_POST['func'] == "T")
     insertStudentToTeacher($_POST['id']);
 if ($_POST['func'] == "D")
     showStudentForTeacher();
-if($_POST['func'] == 'U')
+if ($_POST['func'] == "U")
+{
+	 echo 'console.log("im here")';
+	var_dump($_POST['name']);
 	insertUser($_POST['name'], $_POST['url'], $_POST['type']);
+}
 ?>
