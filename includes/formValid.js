@@ -32,15 +32,21 @@ function validateForm() {
     	   var url= document.forms["regsForm"]["email"].value;
     	   var type = document.forms["regsForm"]["type"].value;
     	   var dataString1 =  "func=U&name=" + name +"&url=" + url +"&type="+type;
-    	 debugger;
+    	 
         $.ajax({
             type: 'POST',
             url: 'server.php',
             data: dataString1,
             dataType: "json",
             success: function(data) {
-            	debugger;
+            	
             	console.log(data);
+            },
+            error: function  (data) {
+                        	
+
+                          	console.log(data);
+
             }
             	});
     	return true;
