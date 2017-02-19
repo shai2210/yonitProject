@@ -21,16 +21,36 @@ function validateForm() {
      var w = document.forms["regsForm"]["email"].value;
     if (w == "") {
         alert("Email must be filled out");
+        debugger;
         return false;
+            	 
+
     }
- 
-    else return true;
+    else
+    {
+    	
+    	 // var name= document.forms["regsForm"]["fName"].value;
+    	  // var url= document.forms["regsForm"]["email"].value;
+    	  // var type = document.forms["regsForm"]["type"].value;
+    	  // var dataString1 =  "func=A&name=" + name "url=" + url "type="type;
+    	 debugger;
+        // $.ajax({
+            // type: 'POST',
+            // url: 'server.php',
+            // data: dataString1,
+            // dataType: "json",
+            // success: function(data) {
+    	return true;
+    } 
+    
 }
 $( document ).ready(function() {
     var submit = $('.submit');
     submit.click(function() {
         if(validateForm()){
-             location.href = 'http://shenkar.html5-book.co.il/2016-2017/html5/dev_227/index.html';
+             location.href = 'index.html';
         }
     });
+    
+    
 });

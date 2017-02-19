@@ -129,6 +129,20 @@ function showStudentForTeacher()
     $mysqli->close();
 }
 
+function insertUser($name,$url,$type)
+{
+    $query = "INSERT IGNORE INTO tbl_users_227 (name,url,type)VALUES ($name,$url,$id)";
+    $mysqli = connect();
+    $mysqli->set_charset("utf8");
+    if ($mysqli->query($query) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $query . "<br>" . $mysqli->error;
+    }
+
+    $mysqli->close();
+}
+
 if ($_POST['func'] == "A")
     fetchParent($_POST['id']);
 if ($_POST['func'] == "B")
@@ -141,4 +155,6 @@ if ($_POST['func'] == "T")
     insertStudentToTeacher($_POST['id']);
 if ($_POST['func'] == "D")
     showStudentForTeacher();
+if($_POST['func'] == 'U')
+	insertUser($_POST['name'], $_POST['url'], $_POST['type']);
 ?>
